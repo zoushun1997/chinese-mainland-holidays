@@ -1,0 +1,11 @@
+[package]
+name = "chinese-mainland-holidays"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[features]
+default = ["chrono"]
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, optional = true }
